@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 import AppButton from '../atoms/AppButton'
 
@@ -15,7 +16,7 @@ function Section() {
             </div>
         </div>
         <div className='sm:w-1/2 bg-slate-600'>
-    <img src="img.png" className='h-3/4 w-full' alt="image icon" />
+    <img src="img.png" className='h-3/4 w-full'  alt="image icon" />
         </div>
         
     </div>

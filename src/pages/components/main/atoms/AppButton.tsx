@@ -1,7 +1,7 @@
 import React from 'react'
 
 type Props = React.DetailedHTMLProps<React.ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement>&{
-    title:String;
+    title:string;
 }
 
 const AppButton = (props: Props) => {

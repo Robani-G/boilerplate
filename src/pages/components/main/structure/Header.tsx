@@ -1,17 +1,16 @@
 import Link from 'next/link';
-import { type } from 'os'
 import React, { FC, useState } from 'react'
-import { Bars3Icon, BeakerIcon, XMarkIcon } from '@heroicons/react/24/solid'
+import { Bars3Icon,  XMarkIcon } from '@heroicons/react/24/solid'
 
 type navprop={
-    title:String;
-    Path:String;
+    title:string;
+    Path:string;
     
 
 }
 const navlink:((navprop)&{id:number}) []=[
     {id:1, title:"Home",Path:"./#"},
-    {id:2, title:"Docs",Path:"#"},
+    {id:2, title:"Docs",Path:"./#"},
     {id:3, title:"Service",Path:"./#"},
     {id:4, title:"About Us",Path:"./components/main/structure/Contact"},
 
